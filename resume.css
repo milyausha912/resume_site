@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #EDEAE5;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 450px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.photo {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text p {
+    font-style:italic;
+    font-weight: bold;
+    color: #929292;
+}
+
+
+a {
+    color: #0f141e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #026670;
+    text-decoration: underline;
+}
+
+/* a:visited {
+    color: #5F5F5F;
+} */
+
+.card {
+    border-radius: 20px;
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: circle;
+}
+
+.list li {
+    margin: 10px 15px;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+}
+
+.table th {
+    padding-bottom: 15px;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #5F5F5F;
+}
+
+.bg-1 {
+    margin-top: 10px;
+    background-color: #FCE181;
+}
+
+.bg-2 {
+    background-color: #FEF9C7;
+}
+
+.bg-3 {
+    background-color: #9FEDD7;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: #5F5F5F;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 450px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0e4e9b;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background: #EDEAE5;
+    border: 1px solid #0e4e9b;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: inherit;
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
